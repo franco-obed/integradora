@@ -1,0 +1,64 @@
+body {
+	background-color: white;
+	text-align:center;
+}
+
+#Logotipo
+{
+	max-width:100%;
+	text-align:justify;
+	border: 5;
+	border-color: black;
+
+}
+
+#Foto de Perfil
+{
+	max-width:100%;
+	text-align:left;
+	border: 5;
+	border-color: black;
+}
+
+h1
+{
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+
+h3
+{
+    font-family:Verdana, Geneva, sans-serif;
+	text-align:left;	
+}
+
+body,td,th 
+{
+	color: black;
+	text-align:center;
+}
+
+.Nombre
+{
+    text-align: center;	
+}
+
+.Contacto
+{
+    text-align: center;	
+}
+
+.País
+{
+    text-align: center;	
+}
+
+.Estado
+{
+    text-align: center;	
+}
+
+.Localidad
+{
+    text-align: center;	
+}
