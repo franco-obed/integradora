@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Perfil E-Shaku" content="Perfil E-Shaku" />
+<link rel="stylesheet" type="text/css" a href="HTML Proyecto Integrador/CSS/CSS Marco Superior E-Shaku.css">
+<title>Perfil del usuario</title>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+	<style type="text/css">
+		{
+			padding:0px;
+			margin:0px;
+		}
+		
+		#header {
+			margin: auto;
+			width:500;
+			font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		}
+		
+		ul, ol{
+			list-style:none;
+		}
+		
+		.nav li a {
+			background-color:#000;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 90px;
+			display: block;
+		}
+		
+		.nav li a:hover {
+			background-color: #434343;
+		}
+		
+		.nav > li {
+			float:right;
+		}
+				
+		.nav li ul {
+			display:none;
+			position: relative;
+			min-width: 140px;
+		}
+		
+		.nav li:hover > ul {
+			display: block;
+		}
+		
+		.nav li ul li {
+			position:relative;
+		}
+		
+		.nav li ul li ul {
+			right:-140px;
+			top: 0px;
+		}
+	</style>
+		   
+
+<body>
+	
+	<div id="header">
+		
+		<ul class="nav">
+			<li><a href="">Cerrar Sesion</a></li>
+
+			<li><a href="">Acerca de</a>
+			    <ul>
+					<li><a href="">--Página</a></li>
+					<li><a href="">--Página</a></li>
+					<li><a href="">--Página</a></li>
+					<li><a href="">--Página</a></li>
+			    </ul>
+			</li>
+			<li><a href="">Usuarios</a>
+			    <ul>
+					<li><a href="HTML Proyecto Integrador/Marco Superior E-Shaku.html">Mi Perfil</a></li><!--En el hipervínculo, copiar la ruta de origen-->
+					<li><a href="">-Página</a></li>
+					<li><a href="">--Página</a></li>
+					<li><a href="">Cerrar Sesión</a><!--Agregar el vínculo a 'Iniciar Sesión'-->
+						
+						<!--Activar éste código solo si el menú contara com más opciones,
+
+                         <ul>
+							<li><a href="">Submenu 1</a></li>
+							<li><a href="">Submenu 2</a></li>
+							<li><a href="">Submenu 3</a></li>
+							<li><a href="">Submenu 4</a>
+								<ul>
+									<li><a href="">Submenu 1</a></li>
+									<li><a href="">Submenu 2</a></li>
+									<li><a href="">Submenu 3</a></li>
+									<li><a href="">Submenu 4</a></li>
+								</ul>
+							</li>
+			            </ul>-->
+			        </li>
+		        </ul>
+	        </li>
+			<li><a href="">Inicio</a></li>
+		</ul>
+
+	</div>
+<div id="Logotipo">
+      <img src="../Imágenes/E-Shaku Encabezado.png" width="313" height="139" /></div>
+	
+<header>
+  <h1 align="center">Perfil del usuario</h1>
+  
+  <div id="Foto de Perfil"><img src="../Imágenes/Mi foto de Proyecta.jpeg" width="161" height="187" /></div>
+  <br />
+<a href ="" target="_blank">
+      <br />
+        <input type="button" value="Editar Info"/>
+      </a> 
+  <p>
+  <td class="Publicaciones Seguidas">
+      <label>
+        <select name="select2" id="select2">
+          <option selected="selected"><b></b></option>
+          <option>Publicaciones Seguidas</option>
+        </select>
+      </label>
+  </td>
+  <br />
+  <h3>Mi información</h3>
+  <!--Comienza Tabla-->
+  
+  <table width="193" border="5">
+    <td bgcolor="#999999">
+      <div align="center">
+       <p class="Nombre"><span class="Estilo7"><b>Nombre:</b></span>
+	   </p>
+      </div>
+    </td>
+    <td width="72" bgcolor="#CCCCCC">Isaac Peña
+	</td>
+  </tr>
+  <tr>
+    </td>
+    <td bgcolor="#999999">
+	</td>
+  </tr>
+  <tr>
+    <td bgcolor="#999999">
+      <div align="center">
+       <p class="Puesto"><b>Cargo:</b>
+	   </p>
+      </div>
+    </td>
+    <td bgcolor="#CCCCCC">Donador
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#999999">
+      <div align="center">
+       <p class="Contacto"><b>Contacto:</b>
+	   </p>
+      </div>
+    </td>
+    <td bgcolor="#CCCCCC">isaacpena609@gmail.com
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#999999">
+      <div align="center">
+       <p class="País"><b>País:</b>
+	   </p>
+      </div>
+    </td>
+    <td bgcolor="#CCCCCC">México
+	</td>
+  </tr>
+  <tr>
+    <td bgcolor="#999999">
+      <div align="center">
+       <p class="Estado"><b>Estado:</b>
+	   </p>
+      </div>
+    </td>
+    <td bgcolor="#CCCCCC">Chihuahua
+	</td>
+  </tr>
+  <tr>
+    <td bgcolor="#999999">
+      <div align="center">
+       <p class="Localidad"><b>Localidad:</b>
+	   </p>
+      </div>
+    </td>
+    <td bgcolor="#CCCCCC">Chihuahua
+	</td>
+  </tr>
+</table>
+<!--Termina Tabla-->
+<!--Boton Editar Info-->
+    <style>
+	  @import 'style.css';
+	</style>
+	  <a href ="HTML Proyecto Integrador/Página Editar Información del usuario.html" target="_blank">
+      <br />
+        <input type="button" value="Editar Info"/>
+      </a>  
+</form>
+</body>
+ </header>
+</html>
