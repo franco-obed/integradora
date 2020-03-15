@@ -1,0 +1,80 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1
+{
+	text-align: left;
+}
+
+#Cajon1 
+{
+	margin: auto;
+	margin-top: 10px;
+	width: 1340px;
+	height: 800px; 
+	background-color: white;	
+}
+
+#Cajon2
+{
+	float: right;
+	width: 325px;
+	height: 800px; 
+	background-color: black;		
+}
+
+#Cajon3
+{
+    margin: auto;
+	margin-top: 15px;
+	width: 300px;
+	height: 380px;
+	background-color: white;
+}
+
+#Cajon4
+{
+    margin: auto;
+	margin-top: 20px;
+	height: 45px;
+	background: #5A5B5C;
+	color: white;
+}
+
+#Cajon6
+{
+	margin-top: 20px;
+	width: 1000px;
+	height: 580px;
+	background-color: white;
+}
+
+#Cajon7
+{
+	margin: auto;
+	margin-top: 20px;
+	height: 45px;
+	background: #5A5B5C;
+	color: white;
+}
+
+#img
+{
+	float: left;
+	margin-top: 5px;
+	width: 400px;
+	height: 190px;
+}
+
+
+
+#title
+{
+	text-align: center;
+	margin: auto;
+	float: left;
+	font-family: Arial;
+}
