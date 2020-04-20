@@ -16,7 +16,7 @@
 	float: right;
 	width: 325px;
 	height: 800px;
-	background-color: #363A49;
+	background-color: black;
 }
 #cajon3
 {
@@ -126,4 +126,20 @@
 	margin: auto;
 	float: left;
 	font-family: Arial;
+}
+#button{
+	margin: auto;
+
+	text-decoration: none;
+	border:none;
+	width: 150px;
+	color: white;
+	font-size: 20px;
+	background: DeepSkyBlue;
+	padding: 15px 50px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#button:hover{
+    background: azure;
 }

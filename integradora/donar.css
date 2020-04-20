@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.nav
+{
+	background-color: #C7C4C2;
+	height: 85px;
+}
+.nav #menu
+{
+	float: right;
+	list-style: none;
+	padding: 10px;
+	background: black;
+	width: 60%;
+	margin: auto;
+}
+.nav #menu li a
+{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.nav #menu li
+{
+	display: inline-block;
+	text-align: center;
+}
+.nav #menu li a:hover
+{
+	background: #5A5B5C;
+}
+
+/* Coajones*/
+
+
+
+.cajon1
+{
+	margin-top: 20px;
+	margin: auto;
+	width: 600px;
+	height: 150px;
+	background-color: black;
+}
+
+.cajon2
+{
+	width: 350px;
+	height: 80px;
+	background-color: #C7C4C2;
+	margin: auto;
+}
+
+#cajon3
+{
+	color: white;
+	margin: auto;
+	background-color: black;
+	width: 60%;
+	height: 300px;
+
+}
+#encabezado
+{
+	color: white;
+}
+/* Botones */
+
+.boton1
+{
+	margin-top: 10px;
+}
